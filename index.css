@@ -1,0 +1,534 @@
+    /* 
+    ||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||  index  ||||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+    
+    .pbtn {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .link_pbtn {
+        position: relative;
+    }
+    
+    .pbtn .link_pbtn a {
+        display: block;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        text-decoration: none;
+        background: #333;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 3px solid #333;
+        transition: all .35s;
+    }
+    
+    .h_top1c {
+        margin-top: 75px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .h_top1 {
+        width: 48%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .hbox-t {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        text-align: center;
+    }
+    
+    .hbox1-t,
+    .hbox2-t,
+    .hbox3-t,
+    .hbox4-t,
+    .hbox5-t {
+        color: white;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 20%;
+    }
+    
+    .hbox1-d,
+    .hbox2-d,
+    .hbox3-d,
+    .hbox4-d,
+    .hbox5-d {
+        color: white;
+        padding: 10px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    
+    .hbox1-d p,
+    .hbox2-d p,
+    .hbox3-d p,
+    .hbox4-d p,
+    .hbox5-d p {
+        margin-left: 50px;
+    }
+    
+    .hbox1-d .pbtn,
+    .hbox2-d .pbtn,
+    .hbox3-d .pbtn,
+    .hbox4-d .pbtn,
+    .hbox5-d .pbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .hbox_center_cb {
+        margin-top: 30px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hbox_center {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .home_Summary_titles {
+        text-align: center;
+    }
+    
+    .Summary_detail1 {
+        display: inline-block;
+        width: 20%;
+        color: white;
+    }
+    
+    .Summary_detail2 {
+        display: inline-block;
+        width: 75%;
+        color: white;
+    }
+    
+    .Summary_cnter {
+        margin-top: 80px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h_inside_some_info {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .line_cv {
+        background-color: white;
+        height: 300px;
+        width: 5px;
+    }
+    
+    .line_ch {
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 650px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    
+    .dflexc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dflex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .w-100 {
+        width: 100%;
+    }
+    
+    .sec-1 .animate {
+        transform: translateX(-150%);
+    }
+    
+    .show-animate .animate {
+        transform: translateX(0);
+    }
+    
+    .sec-2 .animatee {
+        transform: translateX(150%);
+    }
+    
+    .show-animate .animatee {
+        transform: translateX(0);
+    }
+    
+    section .animate,
+    .animatee {
+        transition: 400ms;
+    }
+    
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 85vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  MediaScreen  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+    
+    @media screen and (max-width: 1200px) {}
+    
+    @media screen and (max-width: 992px) {
+        .pbtn {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .link_pbtn {
+            position: relative;
+        }
+        .pbtn .link_pbtn a {
+            display: block;
+            width: 250px;
+            height: 50px;
+            line-height: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            background: #333;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #333;
+            transition: all .35s;
+        }
+        .h_top1c {
+            margin-top: 75px;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .h_top1 {
+            width: 48%;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        .hbox-t {
+            font-size: 40px;
+            font-style: normal;
+            color: white;
+            text-align: center;
+        }
+        .hbox1-t,
+        .hbox2-t,
+        .hbox3-t,
+        .hbox4-t,
+        .hbox5-t {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+        }
+        div .dflex {
+            display: inline-block;
+        }
+        .hbox1-d,
+        .hbox2-d,
+        .hbox3-d,
+        .hbox4-d,
+        .hbox5-d {
+            color: white;
+            padding: 20px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+        }
+        .hbox1-d p,
+        .hbox2-d p,
+        .hbox3-d p,
+        .hbox4-d p,
+        .hbox5-d p {
+            width: 90%;
+        }
+        .hbox_center_cb {
+            margin-top: 30px;
+            display: inline-block;
+            width: 100%;
+            max-width: 820px;
+        }
+        .hbox_center {
+            display: inline-block;
+            max-width: 820px;
+        }
+        .home_Summary_titles {
+            text-align: center;
+        }
+        .Summary_detail1 {
+            display: inline-block;
+            width: 20%;
+            color: white;
+        }
+        .Summary_detail2 {
+            display: inline-block;
+            width: 75%;
+            color: white;
+        }
+        .Summary_cnter {
+            margin-top: 80px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .h_inside_some_info {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .dflexc .line_cv {
+            background-color: white;
+            height: 5px;
+            width: 300px;
+        }
+        .line_ch {
+            background-color: rgb(255, 255, 255);
+            height: 3px;
+            width: 650px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .text-s {
+            font-size: 20px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+        .text-m {
+            font-size: 25px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+        .text-l {
+            font-size: 30px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+    }
+    
+    @media(max-width: 753px) {}
+    
+    @media screen and (max-width: 576px) {
+        .pbtn {
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .link_pbtn {
+            position: relative;
+        }
+        .pbtn .link_pbtn a {
+            display: block;
+            width: 250px;
+            height: 50px;
+            line-height: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            background: #333;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #333;
+            transition: all .35s;
+        }
+        .h_top1c {
+            margin-top: 75px;
+            background-size: cover;
+            display: inline-block;
+            width: 100%;
+        }
+        .h_top1 {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .hbox-t {
+            font-size: 40px;
+            font-style: normal;
+            color: white;
+            text-align: center;
+        }
+        .hbox1-t,
+        .hbox2-t,
+        .hbox3-t,
+        .hbox4-t,
+        .hbox5-t {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+        }
+        .hbox1-d,
+        .hbox2-d,
+        .hbox3-d,
+        .hbox4-d,
+        .hbox5-d {
+            color: white;
+            padding: 20px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+        }
+        .hbox1-d p,
+        .hbox2-d p,
+        .hbox3-d p,
+        .hbox4-d p,
+        .hbox5-d p {
+            margin-left: 0px;
+            width: 100%;
+        }
+        .hbox_center_cb {
+            margin-top: 30px;
+            display: inline-block;
+            width: 100%;
+            max-width: 820px;
+        }
+        .hbox_center {
+            display: inline-block;
+            max-width: 820px;
+        }
+        .home_Summary_titles {
+            text-align: center;
+        }
+        .Summary_detail1 {
+            display: inline-block;
+            width: 100%;
+            color: white;
+        }
+        .Summary_detail2 {
+            display: inline-block;
+            width: 100%;
+            color: white;
+        }
+        .Summary_cnter {
+            margin-top: 80px;
+            height: auto;
+            display: inline-block;
+            text-align: center;
+        }
+        .Summary_cnter .line_cv {
+            background-color: rgba(255, 255, 255, 0);
+            height: 5px;
+            width: 1px;
+        }
+        .h_inside_some_info {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .h_top1c .dflex .line_cv {
+            background-color: rgba(255, 255, 255, 0);
+            height: 5px;
+            width: 1px;
+        }
+        .line_ch {
+            background-color: rgb(255, 255, 255);
+            height: 3px;
+            width: 350px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .text-s {
+            font-size: 15px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+        .text-m {
+            font-size: 16px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+        .text-l {
+            font-size: 20px;
+            font-style: normal;
+            color: white;
+            width: auto;
+            text-align: center;
+        }
+        div .dflex {
+            display: inline-block;
+            width: 100%;
+        }
+    }

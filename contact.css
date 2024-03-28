@@ -1,0 +1,380 @@
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    |||||||||||  contact info  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+.pbtn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link_pbtn {
+    position: relative;
+}
+
+.pbtn .link_pbtn a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+}
+
+.contact_btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    position: relative;
+}
+
+.contact_top1c {
+    margin-top: 75px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact_top {
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+    text-overflow: inherit;
+}
+
+.contact_top1 {
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+    text-overflow: inherit;
+}
+
+.contact_cnter {
+    margin-top: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_detail1 {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+.contact_detail2 {
+    display: inline-block;
+    width: 45%;
+    color: white;
+}
+
+.contact_detail3 {
+    display: flex;
+    width: 30%;
+    color: white;
+}
+
+.uj_img {
+    width: 300px;
+}
+
+.line_cv {
+    background-color: white;
+    height: 300px;
+    width: 5px;
+}
+
+.line_ch {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text-s {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-m {
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-l {
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-1 .animate {
+    transform: translateX(-150%);
+}
+
+.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-2 .animatee {
+    transform: translateX(150%);
+}
+
+.show-animate .animatee {
+    transform: translateX(0);
+}
+
+section .animate,
+.animatee {
+    transition: 400ms;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||||  KyeFrame  ||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@keyframes type {
+    0% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 75%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  MediaScreen  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .contact_btn {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        min-width: 300px;
+        position: relative;
+    }
+    .contact_top1c {
+        margin-top: 75px;
+        display: inline-block;
+        width: 100%;
+    }
+    .contact_top {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        display: block;
+        text-overflow: inherit;
+    }
+    .contact_top1 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        display: block;
+        text-align: center;
+        text-overflow: inherit;
+    }
+    .contact_cnter {
+        margin-top: 150px;
+        height: auto;
+        display: inline-block;
+    }
+    .contact_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .contact_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .contact_detail2 p {
+        text-align: center;
+    }
+    .contact_detail3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white;
+    }
+    .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 300px;
+    }
+    .dflex {
+        height: 1px;
+    }
+    .line_ch {
+        background-color: rgba(255, 255, 255, 0);
+        height: 3px;
+        width: 300px;
+    }
+    .text-m {
+        font-size: 23px;
+    }
+    .text-l {
+        font-size: 35px;
+        text-align: center;
+    }
+    .uj_img {
+        margin-top: 40px;
+        width: 350px;
+        height: 500px;
+    }
+    section {
+        display: inline-block;
+        height: auto;
+    }
+    section .sec-1,
+    .sec-2 {
+        display: inline-block;
+        height: auto;
+        min-height: 100vh;
+    }
+}
+
+@media(max-width: 753px) {}
+
+@media screen and (max-width: 576px) {
+    .contact_btn {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        min-width: 300px;
+        position: relative;
+    }
+    .contact_top1c {
+        margin-top: 75px;
+        display: inline-block;
+        width: 100%;
+    }
+    .contact_top {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        display: block;
+        text-overflow: inherit;
+    }
+    .contact_top1 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+        display: block;
+        text-align: center;
+        text-overflow: inherit;
+    }
+    .contact_cnter {
+        margin-top: 150px;
+        height: auto;
+        display: inline-block;
+    }
+    .contact_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .contact_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .contact_detail2 p {
+        text-align: center;
+    }
+    .contact_detail3 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        color: white;
+    }
+    .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 300px;
+    }
+    .dflex {
+        height: 1px;
+    }
+    .line_ch {
+        background-color: rgba(255, 255, 255, 0);
+        height: 3px;
+        width: 300px;
+    }
+    .text-m {
+        font-size: 16px;
+    }
+    .text-l {
+        font-size: 25px;
+        text-align: center;
+    }
+    .uj_img {
+        width: 250px;
+        height: 300px;
+    }
+    section {
+        display: inline-block;
+        height: auto;
+    }
+    section .sec-1,
+    .sec-2 {
+        display: inline-block;
+        height: auto;
+        min-height: 100vh;
+    }
+}

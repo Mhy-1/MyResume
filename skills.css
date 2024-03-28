@@ -1,0 +1,723 @@
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||||  skills  |||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+.skills_box_flex {
+    width: 70%;
+}
+
+.Skill_detail1 {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+.Skill_detail2 {
+    display: inline-block;
+    width: 75%;
+    color: white;
+}
+
+.Skill_cnter {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill_img_bar {
+    width: 80%;
+}
+
+.simg_center {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    width: 230px;
+}
+
+.skills_titles {
+    text-align: center;
+}
+
+.Skills_Qualifications {
+    display: inline-block;
+    width: 800px;
+    max-width: 1200px;
+    border-radius: 12px;
+    color: white;
+}
+
+.Qualifications_box1 {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.skills_Languages {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.Skills_Qualifications p {
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+.Skills_Qualifications_cnter {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simg_size {
+    width: 220px;
+    height: 220px;
+}
+
+.wrapper .card .circle .bar canvas {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.wrapper .card .circle .bar {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 300px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .card {
+    background: none;
+    width: auto;
+    height: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrapper .card .circle {
+    position: relative;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.card .circle .box,
+.card .circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.card .circle .box {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.65);
+    transition: all 0.2s;
+}
+
+.card .circle:hover .box {
+    transform: translate(-50%, -50%) scale(0.80);
+}
+
+.card .circle .box span,
+.wrapper .card .text {
+    background: -webkit-linear-gradient(left, #ffffff, #8b8b8b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle .box span {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transform: translate(-45%, -45%);
+    transition: all 0.1s;
+}
+
+.card .circle:hover .box span {
+    transform: translate(-45%, -45%) scale(1.09);
+}
+
+.card .text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s_top1c {
+    margin-top: 75px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.s_top1 {
+    width: 48%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.line_cv {
+    background-color: white;
+    height: 300px;
+    width: 5px;
+}
+
+.Skills_Qualifications .line_cv {
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.line_ch {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text-s {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-m {
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-l {
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text_c {
+    text-align: center;
+}
+
+.sec-1 .animate {
+    transform: translateX(-150%);
+}
+
+.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-2 .animatee {
+    transform: translateX(150%);
+}
+
+.show-animate .animatee {
+    transform: translateX(0);
+}
+
+section .animate,
+.animatee {
+    transition: 400ms;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  MediaScreen  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .skills_box_flex {
+        width: 100%;
+    }
+    .Skill_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Skill_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Skill_cnter {
+        margin-top: 80px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .skill_img_bar {
+        width: 100%;
+    }
+    .simg_center {
+        width: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 230px;
+    }
+    .Skills_Qualifications {
+        display: inline-block;
+        width: 500px;
+        max-width: 1200px;
+        border-radius: 12px;
+        color: white;
+    }
+    .Qualifications_box1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .Qualifications_box2 {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .skills_Languages {
+        display: inline-block;
+        color: white;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .skills_Languages {
+        text-align: center;
+    }
+    .text_c {
+        text-align: center;
+    }
+    .Skills_Qualifications h3 {
+        display: block;
+        width: 100%;
+        color: white;
+    }
+    .Skills_Qualifications_cnter {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dflex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .simg_size {
+        width: 150px;
+        height: 150px;
+    }
+    .wrapper .card .circle .bar canvas {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        cursor: default;
+    }
+    .circle .bar {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        cursor: default;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        max-width: 300px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper .card {
+        background: none;
+        width: auto;
+        height: auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wrapper .card .circle {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        cursor: default;
+    }
+    .card .circle .box,
+    .card .circle .box span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .card .circle .box {
+        height: 100%;
+        width: 100%;
+        background: #000000;
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0.75);
+        transition: all 0.2s;
+    }
+    .card .circle:hover .box {
+        transform: translate(-50%, -50%) scale(0.90);
+    }
+    .card .circle .box span,
+    .wrapper .card .text {
+        background: -webkit-linear-gradient(left, #ffffff, #8b8b8b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .circle .box span {
+        font-size: 38px;
+        font-family: sans-serif;
+        font-weight: 600;
+        transform: translate(-45%, -45%);
+        transition: all 0.1s;
+    }
+    .card .circle:hover .box span {
+        transform: translate(-45%, -45%) scale(1.09);
+    }
+    .card .text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .s_top1c {
+        margin-top: 75px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .s_top1 {
+        width: 48%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .Skill_cnter .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+    }
+    .Skills_Qualifications .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .line_ch {
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 650px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: 100%;
+    }
+}
+
+@media(max-width: 753px) {}
+
+@media screen and (max-width: 576px) {
+    .skills_box_flex {
+        width: 100%;
+    }
+    .Skill_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Skill_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Skill_cnter {
+        margin-top: 80px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    .skill_img_bar {
+        width: 100%;
+    }
+    .simg_center {
+        width: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 230px;
+    }
+    .Skills_Qualifications {
+        display: inline-block;
+        width: 100%;
+        max-width: 1200px;
+        border-radius: 12px;
+        color: white;
+    }
+    .Qualifications_box1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .Qualifications_box2 {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .skills_Languages {
+        display: inline-block;
+        color: white;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .text_c {
+        text-align: center;
+    }
+    .Skills_Qualifications h3 {
+        display: block;
+        width: 100%;
+        color: white;
+    }
+    .Skills_Qualifications_cnter {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dflex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .simg_size {
+        width: 150px;
+        height: 150px;
+    }
+    .wrapper .card .circle .bar canvas {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        cursor: default;
+    }
+    .circle .bar {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        cursor: default;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        max-width: 300px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper .card {
+        background: none;
+        width: auto;
+        height: auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .wrapper .card .circle {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        cursor: default;
+    }
+    .card .circle .box,
+    .card .circle .box span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .card .circle .box {
+        height: 100%;
+        width: 100%;
+        background: #000000;
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0.75);
+        transition: all 0.2s;
+    }
+    .card .circle:hover .box {
+        transform: translate(-50%, -50%) scale(0.90);
+    }
+    .card .circle .box span,
+    .wrapper .card .text {
+        background: -webkit-linear-gradient(left, #ffffff, #8b8b8b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .circle .box span {
+        font-size: 38px;
+        font-family: sans-serif;
+        font-weight: 600;
+        transform: translate(-45%, -45%);
+        transition: all 0.1s;
+    }
+    .card .circle:hover .box span {
+        transform: translate(-45%, -45%) scale(1.09);
+    }
+    .card .text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .s_top1c {
+        margin-top: 75px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .s_top1 {
+        width: 48%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .Skill_cnter .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+    }
+    .Skills_Qualifications .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .line_ch {
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 650px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: 100%;
+    }
+}

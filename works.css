@@ -1,0 +1,180 @@
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  Achievement  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+.Achievement_top1c {
+    margin-top: 75px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Achievement_top1 {
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+    text-overflow: inherit;
+}
+
+.Achievement_top2 {
+    width: 63%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.line_cv {
+    background-color: white;
+    height: 300px;
+    width: 5px;
+}
+
+.line_ch {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text-s {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-m {
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-l {
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.sec-1 .animate {
+    transform: translateX(-150%);
+}
+
+.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-2 .animatee {
+    transform: translateX(150%);
+}
+
+.show-animate .animatee {
+    transform: translateX(0);
+}
+
+section .animate,
+.animatee {
+    transition: 400ms;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||||  KyeFrame  ||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@keyframes type {
+    0% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 75%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  MediaScreen  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .Achievement_top1c {
+        margin-top: 75px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .Achievement_top1 {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: block;
+        text-overflow: inherit;
+    }
+    .Achievement_top2 {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 300px;
+    }
+    .line_ch {
+        background-color: rgb(255, 255, 255, 0);
+        height: 3px;
+        width: 650px;
+    }
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+}
+
+@media(max-width: 753px) {}
+
+@media screen and (max-width: 576px) {}

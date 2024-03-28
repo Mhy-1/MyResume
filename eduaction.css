@@ -1,0 +1,388 @@
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    |||||||||||||  Eduaction  ||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+.Eduaction_cnter {
+    margin-top: 150px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Eduaction_detail1 {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+.Eduaction_detail2 {
+    display: flex;
+    width: 40%;
+    color: white;
+}
+
+.Eduaction_detail3 {
+    display: flex;
+    width: 30%;
+    color: white;
+}
+
+.Eduaction_titles {
+    text-align: center;
+}
+
+.uj_img {
+    width: 300px;
+}
+
+.Courses_cnter {
+    margin-top: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Courses_detail1 {
+    display: inline-block;
+    width: 30%;
+    color: white;
+}
+
+.Courses_detail2 {
+    display: flex;
+    width: 75%;
+    color: white;
+}
+
+.Certificates_cnter {
+    margin-top: 150px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Certificates_detail1 {
+    display: inline-block;
+    width: 30%;
+    color: white;
+}
+
+.Certificates_detail2 {
+    display: flex;
+    width: 75%;
+    color: white;
+}
+
+.line_cv {
+    background-color: white;
+    height: 300px;
+    width: 5px;
+}
+
+.line_ch {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text-s {
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-m {
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.text-l {
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    width: auto;
+}
+
+.sec-1 .animate {
+    transform: translateX(-150%);
+}
+
+.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-2 .animatee {
+    transform: translateX(150%);
+}
+
+.show-animate .animatee {
+    transform: translateX(0);
+}
+
+section .animate,
+.animatee {
+    transition: 400ms;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||||  KyeFrame  ||||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@keyframes type {
+    0% {
+        width: 0%;
+    }
+    30% {
+        width: 30%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 75%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* 
+    ||||||||||||||||||||||||||||||||||||||||
+    ||||||||||||  MediaScreen  |||||||||||||
+    |||||||||||||||||||||||||||||||||||||||| 
+*/
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .Eduaction_cnter {
+        margin-top: 150px;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+    }
+    .Eduaction_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Eduaction_detail2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .Eduaction_detail3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: white;
+    }
+    .Eduaction_titles {
+        text-align: center;
+    }
+    .uj_img {
+        margin-top: 30px;
+        width: 350px;
+    }
+    .Courses_cnter {
+        margin-top: 150px;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .Courses_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Courses_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Certificates_cnter {
+        margin-top: 150px;
+        height: auto;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .Certificates_detail1 {
+        display: inline-block;
+        color: white;
+    }
+    .Certificates_detail2 {
+        display: flex;
+        width: 100%;
+        color: white;
+    }
+    .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .line_ch {
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 650px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+}
+
+@media(max-width: 753px) {}
+
+@media screen and (max-width: 576px) {
+    .Eduaction_cnter {
+        margin-top: 150px;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+    }
+    .Eduaction_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Eduaction_detail2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .Eduaction_detail2 p {
+        font-size: 17px;
+    }
+    .Eduaction_detail3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: white;
+    }
+    .Eduaction_titles {
+        text-align: center;
+    }
+    .uj_img {
+        margin-top: 30px;
+        width: 350px;
+    }
+    .Courses_cnter {
+        margin-top: 150px;
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .Courses_detail1 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Courses_detail2 {
+        display: inline-block;
+        width: 100%;
+        color: white;
+    }
+    .Certificates_cnter {
+        margin-top: 150px;
+        height: auto;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .Certificates_detail1 {
+        display: inline-block;
+        color: white;
+        width: 100%;
+    }
+    .Certificates_detail2 {
+        display: flex;
+        width: 100%;
+        color: white;
+    }
+    .line_cv {
+        background-color: white;
+        height: 5px;
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .line_ch {
+        background-color: rgb(255, 255, 255);
+        height: 3px;
+        width: 650px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .text-s {
+        font-size: 20px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-m {
+        font-size: 25px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+    .text-l {
+        font-size: 40px;
+        font-style: normal;
+        color: white;
+        width: auto;
+    }
+}
